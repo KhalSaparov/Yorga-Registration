@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Yorga Registration</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="registration_button">Подать заявку</string>
+    <string name="info_button">Информация</string>
+    <string name="serial_number">Серия паспорта</string>
+    <string name="blank">Бланк регистрации</string>
+    <string name="passport_number">Номер загранпаспорта</string>
+    <string name="date_of_issue">Дата выдачи паспорта </string>
+    <string name="date_of_expiry">Срок паспорта</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="date_of_birth">Дата рождения</string>
+    <string name="gender">Пол</string>
+    <string name="marital_status">Семейное положение</string>
+    <string name="duration_of_trip">Длительность поездки</string>
+    <string name="number_of_entries">Количество въездов</string>
+    <string name="residence_permits">Прописка места жительства</string>
+    <string name="country_of_destination">Страна назначения</string>
+    <string name="date_of_submission">Дата подачи документов</string>
+    <string name="date_of_travel">Дата поездки</string>
+    <string name="place_of_work">Место работы /Должность</string>
+    <string name="address_work">Адрес места работы</string>
+    <string name="previous_trips">Предыдущие поездки</string>
+    <string name="invitation">Приглашающая сторона</string>
+    <string name="tel_number">Номер телефона</string>
+    <string name="assignment">Заполнить после присвоения</string>
+    <string name="number_of_voucher">Номер путевки</string>
+    <string name="visa_application_number">Номер визовой анкеты</string>
+    <string name="apply">Подать заявку</string>
+    <string name="about_company">О КОМПАНИИ\nХ.О. Yorga была зарегистрирована в 2014 году и внесена в Государственный реестр предприятия и организации Туркменистана. Статус компании позволяет ей осуществлять экспортно-импортные и туристические операции. За время существования мы накопили огромный опыт, привлекли множество партнеров и специалистов. Системный подход позволяет нам полностью учитывать как технические, так и экономические потребности наших клиентов.\nАта Говшудов 50/2, Ашхабад 744000, Туркменистан\nТелефон: (+993 65) 552759\nПочта: INFO@YORGAGROUP.COM</string>
+    <string-array name="genderArray">
+        <item>Выберите пол...</item>
+        <item>Муж</item>
+        <item>Жен</item>
+    </string-array>
+    <string-array name="maritalArray">
+        <item>Выберите семейное положение...</item>
+        <item>Женат/Замужем</item>
+        <item>Неженат/Незамужем</item>
+    </string-array>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "509193954508",
+    "firebase_url": "https://yorgatravelapplications-default-rtdb.firebaseio.com",
+    "project_id": "yorgatravelapplications",
+    "storage_bucket": "yorgatravelapplications.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:509193954508:android:f6d7527c6a430e0fb94e69",
+        "android_client_info": {
+          "package_name": "com.example.yorga_r"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "509193954508-1k4k5mt5vd7aj0ev8ldsu9kdh65oj9qv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDDSjdoXSkhvRKkYf1VivAIp1pzHjxlosk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "509193954508-1k4k5mt5vd7aj0ev8ldsu9kdh65oj9qv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

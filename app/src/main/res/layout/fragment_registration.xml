@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment_Registration"
+    android:orientation="vertical"
+    android:background="@drawable/back_gradient">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <TextView
+                android:textColor="@color/black"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="@string/blank"
+                android:textSize="30sp"
+                android:gravity="center">
+            </TextView>
+
+            <EditText
+                android:id="@+id/serial_nmb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/serial_number"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/passport_nmb"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/passport_number"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/dateOfIssue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/date_of_issue"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/dateOfExpiry"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/date_of_expiry"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/name"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/surname"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/surname"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/dateOfBirth"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/date_of_birth"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <Spinner
+                android:id="@+id/gender_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/black">
+            </Spinner>
+
+            <Spinner
+                android:id="@+id/maritalStatus"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textColorHint="@color/black">
+            </Spinner>
+
+            <EditText
+                android:id="@+id/durationOfTrip"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/duration_of_trip"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/nmb_of_entries"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/number_of_entries"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/residencePermits"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:hint="@string/residence_permits"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/countryOfDestination"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/country_of_destination"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/dateOfSubmission"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/date_of_submission"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/dateOfTravel"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/date_of_travel"
+                android:inputType="date"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/placeOfWork"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/place_of_work"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/addressWork"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/address_work"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/previousTrips"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/previous_trips"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/invitation"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/invitation"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <EditText
+                android:id="@+id/phone"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:hint="@string/tel_number"
+                android:inputType="phone"
+                android:textColorHint="@color/black">
+            </EditText>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/orange"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/assignment"
+                    android:textSize="20sp"
+                    android:textColorHint="@color/black">
+                </TextView>
+
+                <EditText
+                    android:id="@+id/numberOfVoucher"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/number_of_voucher"
+                    android:textColorHint="@color/black">
+                </EditText>
+
+                <EditText
+                    android:id="@+id/visaApplication"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="@string/visa_application_number"
+                    android:textColorHint="@color/black">
+                </EditText>
+
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/send_data"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/apply"
+                android:backgroundTint="@color/green">
+            </Button>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
